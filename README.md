@@ -1,13 +1,19 @@
 # insert-countries-in-mysql
 Insert Countries Query for MySQL
 
+## Create Countries Table :
 
-`CREATE TABLE `countries` (
+```
+CREATE TABLE `countries` (
   `code` varchar(2) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;`
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+```
 
-`INSERT INTO `countries` (`code`, `name`) VALUES
+## Insert Countries into Table :
+
+``` 
+INSERT INTO `countries` (`code`, `name`) VALUES
 ('AD', 'Andorra'),
 ('AE', 'United Arab Emirates'),
 ('AF', 'Afghanistan'),
@@ -253,4 +259,5 @@ Insert Countries Query for MySQL
 ('ZA', 'South Africa'),
 ('ZM', 'Zambia'),
 ('ZR', 'Zaire'),
-('ZW', 'Zimbabwe');`
+('ZW', 'Zimbabwe'); 
+```
